@@ -3,18 +3,18 @@ see how to monitor GPU temperature with zabbix on ubuntu.
 
 run this command to make your drivers up-to-date : 
 
-$ sudo ubuntu-drivers autoinstall 
+``$ sudo ubuntu-drivers autoinstall ``
 
-$ sudo reboot
+``$ sudo reboot``
 
 Then clone this repository.
 after that go ahead and uncomment UserParameter=0 and set it to 1 in zabbix_agentd.conf :
 
-$ sudo nano /etc/zabbix/zabbix_agentd.conf 
+``$ sudo nano /etc/zabbix/zabbix_agentd.conf`` 
 
 Add the content of nvidiaGPUTemp.conf below it.
 
-Exit nano editor using CTRL+x;
+Exit nano editor using ``CTRL+x``;
 
 Then open your web browser and go to your zabbix server which in my case is localhost.
 (if you don't have zabbix6 installed fallow this tutorial)
