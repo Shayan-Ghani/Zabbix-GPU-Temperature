@@ -9,6 +9,7 @@ $ sudo reboot
 
 Then clone this repository.
 after that go ahead and uncomment UserParameter=0 and set it to 1 in zabbix_agentd.conf :
+
 $ sudo nano /etc/zabbix/zabbix_agentd.conf 
 
 Add the content of nvidiaGPUTemp.conf below it.
