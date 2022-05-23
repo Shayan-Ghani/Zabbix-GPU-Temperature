@@ -2,6 +2,7 @@
 see how to monitor GPU temperature with zabbix on ubuntu.
 
 run this command to make your drivers up-to-date : 
+
 $ sudo ubuntu-drivers autoinstall ,
 
 $ sudo reboot
