@@ -1,5 +1,5 @@
 # zabbix-GPU-temperature
-see how to monitor GPU temperature with zabbix on ubuntu.
+see how to monitor Nvidia GPUs temperature with zabbix on ubuntu.
 
 run this command to make your drivers up-to-date : 
 
