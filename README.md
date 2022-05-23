@@ -2,11 +2,11 @@
 see how to monitor GPU temperature with zabbix on ubuntu.
 
 run this command to make your drivers up-to-date : 
-$ sudo ubuntu-drivers autoinstall
+$ sudo ubuntu-drivers autoinstall ,
+
 $ sudo reboot
 
-then clone this repository $ sudo git clone git@github.com:Shayan-Ghani/zabbix-GPU-temperature.git
-
+then clone this repository.
 after that go ahead and uncomment UserParameter=0 and set it to 1 in zabbix_agentd.conf :
 $ sudo nano /etc/zabbix/zabbix_agentd.conf 
 
