@@ -17,6 +17,8 @@ Add the content of **nvidiaGPUTemp.conf** below it.
 
 Exit nano editor using ``CTRL+x``;
 
+Restart zabbix-agent service ``sudo systemctl restart zabbix-agent``
+
 Then open your web browser and go to your zabbix server which in my case is localhost.
 > if you don't have zabbix6 installed fallow [this](https://citizix.com/how-to-install-and-configure-zabbix-server-6-on-ubuntu-20-04/) tutorial
 
