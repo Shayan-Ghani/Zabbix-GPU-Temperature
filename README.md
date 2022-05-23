@@ -12,14 +12,14 @@ after that go ahead and uncomment UserParameter=0 and set it to 1 in zabbix_agen
 
 ``$ sudo nano /etc/zabbix/zabbix_agentd.conf`` 
 
-Add the content of nvidiaGPUTemp.conf below it.
+Add the content of **nvidiaGPUTemp.conf** below it.
 
 Exit nano editor using ``CTRL+x``;
 
 Then open your web browser and go to your zabbix server which in my case is localhost.
 > if you don't have zabbix6 installed fallow [this](https://citizix.com/how-to-install-and-configure-zabbix-server-6-on-ubuntu-20-04/) tutorial
 
-From the left modules select Configuration > Templates. on the top-right click on import then on Browse and select Template nvidiaGPUTemp.xml and click on import.
+From the left modules select Configuration > Templates. on the top-right click on import then on Browse and select Template **nvidiaGPUTemp.xml** and click on import.
 
 Now in the same module select Hosts then click items on the host you want it to be.
 
