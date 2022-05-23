@@ -17,7 +17,7 @@ Add the content of nvidiaGPUTemp.conf below it.
 Exit nano editor using ``CTRL+x``;
 
 Then open your web browser and go to your zabbix server which in my case is localhost.
-(if you don't have zabbix6 installed fallow this tutorial)
+> if you don't have zabbix6 installed fallow this tutorial
 
 From the left modules select Configuration > Templates. on the top-right click on import then on Browse and select Template nvidiaGPUTemp.xml and click on import.
 
